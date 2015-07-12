@@ -1,0 +1,15 @@
+extends layout
+
+block content
+  form(method='POST' action='/' onsubmit="return validateForm(this)")
+    div 
+      label MAC Address 
+      input(type="textarea" rows="1" col="17" name="macaddr" placeholder="MAC Address or the first 6 bytes" size="17")
+    div
+      span
+      input(name="submit" type="submit" value="submit")
+         
+script. 
+  function validateForm(form){
+     
+   }
